@@ -51,7 +51,7 @@ else
     skip "Ondrej PHP repo already added"
 fi
 
-PHP_VERSIONS=("8.0" "8.1" "8.2" "8.3" "8.4")
+PHP_VERSIONS=("8.0" "8.1" "8.2" "8.3" "8.4" "8.5")
 PHP_MODULES=(cli fpm dom common mysql zip gd mbstring curl xml bcmath tokenizer xmlrpc pgsql)
 
 for ver in "${PHP_VERSIONS[@]}"; do
